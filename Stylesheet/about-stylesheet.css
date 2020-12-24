@@ -1,0 +1,149 @@
+* {
+    font-family: Futura;
+    color: #f3e2b4;
+}
+body {
+  /*background-image: url(back.svg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;*/
+  background-color: #000000;
+  padding: 0;
+  margin: 0 auto;
+}
+h1, h2, h3{
+    text-align: center;
+}
+.emptyspace{
+    height: 100px;
+    width: auto;
+}
+.smalleremtyspace{
+    height: 50px;
+    width: auto;
+}
+.mainbody {
+    color: #f3e2b4;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+.other-pages{
+    background-color: #8c8472;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#page{
+  border-radius: 15px;
+  border: 2px inset #f3e2b4;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5 25px 5 25px;
+}
+footer{
+    background-color: #8c8472;
+    left: 0px;
+    right: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+}
+.socialicons{
+    /**/
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#footerlink{   
+    margin: 20px;
+}
+#cerby{
+    font-size: 12px;
+}
+#page:hover{
+    background-color: black;
+}
+*, :after, :before {
+    box-sizing: 20px 20px 20px 20px;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 251, 2, 0), rgba(255, 230, 0, 0.75), rgba(255, 251, 2, 0));
+}
+/*  Background Image */
+.sec1{
+    max-width: 800px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    
+}
+#sec1p{
+    background-color: #8c8472;
+    padding: 10px;
+    border-radius: 5%;
+}
+.istimg{ 
+    border: 10px solid whitesmoke;
+    max-width: 400px;
+    min-width: 200px;
+    background: transparent;
+    box-shadow: #8c8472;
+    border-radius: 10%;
+}
+#card1 {
+    height: 100px;
+    width: 100px;
+    background-color: #8c8472;
+    border-radius: 100px;
+    float: left;
+}
+.born {
+    padding: 50px;
+}
+#line1 {
+    stroke: black; 
+    stroke-width: 3px;
+    margin-top: -50px;
+}
+#line2 {
+    stroke: black; 
+    stroke-width: 3px;
+    margin-top: 0px;
+    margin-left: 99px;
+}
+#line3 {
+    stroke: black; 
+    stroke-width: 3px;
+    margin-top: 0px;
+    margin-right: -1000px;
+}
+@media screen and (min-width: 360px){
+     html {
+        font-size: 125%;
+    }
+    .mainbody{
+        max-width: 300px;
+    }
+    .istimg{
+        height: 200px;
+        width: 200px;
+    }
+    .sec1{
+        grid-template-columns: unset;
+    }
+    #sec1p{
+        position: unset;
+    }
+    #footerlink{
+        margin:5px
+    }
+}

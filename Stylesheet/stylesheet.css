@@ -1,0 +1,125 @@
+* {
+    font-family: 'Lemonada', cursive;
+    color: #f3e2b4;
+    text-align: center;
+}
+body {
+  background-color: black;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+title{
+  font-size: 15px;
+}
+a{
+  font-style: italic;
+  text-decoration: none;
+}
+hr{
+  color: #f3e2b4;
+}
+.cover{
+  font-size: 20px;
+  margin: 0;
+  padding-left: 0;
+  margin-top: 40px;
+  height: auto;
+  width: auto;
+  min-width: 400px;
+  /*size: 200px 200px;*/
+}
+#card1, #card2, #card4, #card5, #card6 {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+.aboutme {
+  margin: auto;
+  order: initial;
+}
+#card1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #f3e2b4;
+}
+#card2 {
+    height: 200px;
+    width: 200px;
+    margin-top: -200px;
+    margin-left: -425px;
+}
+#card3 {
+    border-radius: 20px;
+    position: absolute;
+    padding: 20px;
+    margin-top:-50px;
+    margin-left: 188px;
+    height: auto;
+    max-width: 500px;
+    min-width: 200px;
+    background-color: #8c8472;
+}
+#button{
+   font-style: normal;
+   display: grid;
+   text-align: center;
+   padding: 15px;
+   background-color: black;
+   border-radius: 2px 2px 2px 20px;
+   height: auto;
+   width: 300px;
+   font-size: 20px;
+}
+.other-pages{
+    border-bottom: 2px double #f3e2b4;
+    font-style: normal;
+    top: 10px;
+    position: absolute;
+    align-items: center;
+    border: #f3e2b4;
+    height: auto;
+    width: 700px;
+    min-width: 100px;
+    
+}
+#page{
+  border-radius: 15px;
+  border: 2px inset #f3e2b4;
+  font-size: 15px;
+  padding: 10px;
+  margin: 15px;
+}
+/* On screens with a maximum window width of 1280px */
+@media screen and (max-width: 360px){
+  body{
+    font-size: 125%;
+  }
+  .other-pages{
+    width: 200px;
+    margin-left: 20px;
+  }
+  #page{
+    margin: 5px;
+    padding: 5px;
+
+  }
+  #cvr{
+    width: 300px;
+  }
+  .cover{
+    margin-top: 100px;
+  }
+  #card1{
+    visibility: hidden;
+  }
+  #card2{
+    margin: 10px;
+    position: unset;
+  }
+  #card3{
+    width: fit-content;
+    margin: unset;
+    position: unset;
+  }
+}
